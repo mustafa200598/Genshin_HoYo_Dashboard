@@ -15,3 +15,4 @@
 - **[2026-05-01]** style: Refine glassmorphism background filters
 - **[2026-05-01]** refactor: Simplify game config and state management
 - **[2026-05-01]** docs: Add comprehensive tech stack description
+- **[2026-05-01]** feat: Implement Arabic RTL support structure
