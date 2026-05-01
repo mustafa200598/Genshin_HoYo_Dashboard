@@ -28,3 +28,4 @@
 - **[2026-05-01]** refactor: Optimize React useMemo hooks in App.tsx
 - **[2026-05-01]** docs: Update strict author copyright notice
 - **[2026-05-01]** feat: Enhance hero section ambient blur backgrounds
+- **[2026-05-01]** fix: Correct translation mapping for Genshin labels
