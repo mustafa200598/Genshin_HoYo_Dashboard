@@ -54,3 +54,4 @@
 - chore: Internal optimization pass 22
 - chore: Internal optimization pass 23
 - chore: Internal optimization pass 24
+- chore: Internal optimization pass 25
