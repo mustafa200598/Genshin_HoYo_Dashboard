@@ -835,3 +835,4 @@
 - chore: Internal optimization pass 803
 - chore: Internal optimization pass 804
 - chore: Internal optimization pass 805
+- chore: Internal optimization pass 806
