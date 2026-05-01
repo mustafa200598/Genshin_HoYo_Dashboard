@@ -748,3 +748,4 @@
 - chore: Internal optimization pass 716
 - chore: Internal optimization pass 717
 - chore: Internal optimization pass 718
+- chore: Internal optimization pass 719
