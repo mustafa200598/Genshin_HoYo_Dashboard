@@ -9,3 +9,4 @@
 - **[2026-05-01]** style: Polish custom webkit scrollbar
 - **[2026-05-01]** refactor: Extract character interfaces to types
 - **[2026-05-01]** docs: Update HoYoverse dashboard README features
+- **[2026-05-01]** feat: Improve CharacterDetail modal exit animations
