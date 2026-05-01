@@ -11,3 +11,4 @@
 - **[2026-05-01]** docs: Update HoYoverse dashboard README features
 - **[2026-05-01]** feat: Improve CharacterDetail modal exit animations
 - **[2026-05-01]** fix: Handle ZZZ character name regex edge cases
+- **[2026-05-01]** chore: Clean up redundant CSS utility classes
