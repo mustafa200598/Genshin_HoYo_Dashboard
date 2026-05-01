@@ -435,3 +435,4 @@
 - chore: Internal optimization pass 403
 - chore: Internal optimization pass 404
 - chore: Internal optimization pass 405
+- chore: Internal optimization pass 406
