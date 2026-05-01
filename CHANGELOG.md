@@ -106,3 +106,4 @@
 - chore: Internal optimization pass 74
 - chore: Internal optimization pass 75
 - chore: Internal optimization pass 76
+- chore: Internal optimization pass 77
