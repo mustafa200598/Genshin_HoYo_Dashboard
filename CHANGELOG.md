@@ -948,3 +948,4 @@
 - chore: Internal optimization pass 916
 - chore: Internal optimization pass 917
 - chore: Internal optimization pass 918
+- chore: Internal optimization pass 919
