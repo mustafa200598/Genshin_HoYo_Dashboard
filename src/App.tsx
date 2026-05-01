@@ -239,20 +239,21 @@ export default function App() {
             style={{ background: `${activeGame.color}08` }} />
 
           <motion.div whileHover={{ rotate: -4, scale: 1.05 }} className="relative flex-shrink-0">
-            <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-[20px] p-[2px] gradient-animate"
-              style={{ backgroundImage: `linear-gradient(135deg, ${activeGame.color}, #38bdf8, ${activeGame.color})`, backgroundSize: '200% 200%' }}>
-              <div className="w-full h-full rounded-[18px] bg-[var(--bg)] flex items-center justify-center">
+            <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-[20px] p-[2px] gradient-animate shadow-2xl"
+              style={{ backgroundImage: `linear-gradient(135deg, ${activeGame.color}, #38bdf8, ${activeGame.color})`, backgroundSize: '200% 200%', boxShadow: `0 10px 40px ${activeGame.color}40` }}>
+              <div className="w-full h-full rounded-[18px] bg-[var(--bg)] flex items-center justify-center relative overflow-hidden">
+                <div className="absolute inset-0 bg-white/5 opacity-0 hover:opacity-100 transition-opacity" />
                 <span className="text-2xl sm:text-3xl font-black bg-clip-text text-transparent font-en"
-                  style={{ backgroundImage: `linear-gradient(135deg, ${activeGame.color}, #38bdf8)` }}>B</span>
+                  style={{ backgroundImage: `linear-gradient(135deg, ${activeGame.color}, #38bdf8)` }}>Bob</span>
               </div>
             </div>
           </motion.div>
 
           <div className="text-center sm:text-right flex-1 relative z-10">
-            <p className="text-[9px] font-bold mb-1 tracking-wider" style={{ color: activeGame.color }}>المطوّر</p>
-            <h3 className="text-lg sm:text-xl font-black text-white font-en mb-1">Bob</h3>
-            <p className="text-[11px] text-white/30 leading-relaxed max-w-sm mb-3">
-              مطوّر ويب ومصمم واجهات متخصص في بناء تجارب تفاعلية احترافية.
+            <p className="text-[9px] font-bold mb-1 tracking-wider uppercase" style={{ color: activeGame.color }}>المالك والمطور الأساسي</p>
+            <h3 className="text-lg sm:text-xl font-black text-white font-en mb-1 tracking-wide">Mr. Bob</h3>
+            <p className="text-[11px] text-white/40 leading-relaxed max-w-sm mb-3">
+              المهندس المعماري والمطور الحصري لهذا المشروع. متخصص في بناء أنظمة وتجارب ويب فائقة الجودة. جميع حقوق التصميم والبرمجة محفوظة.
             </p>
             <div className="flex flex-wrap justify-center sm:justify-start gap-1.5">
               {['React','TypeScript','Framer Motion','Tailwind'].map(t => (
@@ -264,12 +265,19 @@ export default function App() {
       </section>
 
       {/* ═══════ FOOTER ═══════ */}
-      <footer className="border-t border-white/[0.03] py-5">
-        <div className="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <span className="text-[10px] text-white/15">دليل قنشن وهوفرس</span>
-          <p className="text-[9px] text-white/10 flex items-center gap-1">
-            صُنع بـ <Heart className="w-2.5 h-2.5 text-pink-500/60" fill="currentColor" /> بواسطة Bob
-          </p>
+      <footer className="border-t border-white/[0.03] py-6 relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[var(--bg)] pointer-events-none" />
+        <div className="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3 relative z-10">
+          <div className="flex flex-col items-center sm:items-start gap-1">
+            <span className="text-[11px] font-bold text-white/40 tracking-wide">دليل قنشن وهوفرس</span>
+            <span className="text-[8px] text-white/20 font-en uppercase tracking-widest">Version 1.0.0</span>
+          </div>
+          <div className="flex flex-col items-center sm:items-end gap-1">
+            <p className="text-[10px] text-white/40 flex items-center gap-1.5 font-en font-medium">
+              Designed & Developed by <span className="text-white font-bold" style={{ color: activeGame.color }}>Mr. Bob</span>
+            </p>
+            <p className="text-[8px] text-white/20">جميع الحقوق محفوظة © 2024</p>
+          </div>
         </div>
       </footer>
 
