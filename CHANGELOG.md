@@ -7,3 +7,4 @@
 - **[2026-05-01]** fix: Adjust responsive grid padding for mobile view
 - **[2026-05-01]** chore: Update package configurations and metadata
 - **[2026-05-01]** style: Polish custom webkit scrollbar
+- **[2026-05-01]** refactor: Extract character interfaces to types
