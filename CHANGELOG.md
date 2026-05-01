@@ -13,3 +13,4 @@
 - **[2026-05-01]** fix: Handle ZZZ character name regex edge cases
 - **[2026-05-01]** chore: Clean up redundant CSS utility classes
 - **[2026-05-01]** style: Refine glassmorphism background filters
+- **[2026-05-01]** refactor: Simplify game config and state management
