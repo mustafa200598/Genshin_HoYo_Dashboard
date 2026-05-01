@@ -18,3 +18,4 @@
 - **[2026-05-01]** feat: Implement Arabic RTL support structure
 - **[2026-05-01]** fix: Prevent layout shift during image load
 - **[2026-05-01]** chore: Standardize whitespace and indentation
+- **[2026-05-01]** style: Polish developer badge and copyright section
