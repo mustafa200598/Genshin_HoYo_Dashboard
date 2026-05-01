@@ -520,3 +520,4 @@
 - chore: Internal optimization pass 488
 - chore: Internal optimization pass 489
 - chore: Internal optimization pass 490
+- chore: Internal optimization pass 491
