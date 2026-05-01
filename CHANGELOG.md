@@ -934,3 +934,4 @@
 - chore: Internal optimization pass 902
 - chore: Internal optimization pass 903
 - chore: Internal optimization pass 904
+- chore: Internal optimization pass 905
