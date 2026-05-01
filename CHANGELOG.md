@@ -23,3 +23,4 @@
 - **[2026-05-01]** docs: Add instructions for running development server
 - **[2026-05-01]** feat: Add smooth loading sparkle animations
 - **[2026-05-01]** fix: Adjust flex gap for tablet viewports
+- **[2026-05-01]** chore: Prepare asset folder mappings
