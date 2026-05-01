@@ -26,3 +26,4 @@
 - **[2026-05-01]** chore: Prepare asset folder mappings
 - **[2026-05-01]** style: Add gradient pulse to active game tabs
 - **[2026-05-01]** refactor: Optimize React useMemo hooks in App.tsx
+- **[2026-05-01]** docs: Update strict author copyright notice
