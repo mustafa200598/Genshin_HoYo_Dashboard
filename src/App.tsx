@@ -71,7 +71,7 @@ export default function App() {
               <div className="absolute -bottom-0.5 -left-0.5 w-3 h-3 rounded-full bg-emerald-400 ring-2 ring-[var(--bg)]" />
             </div>
             <div>
-              <h1 className="text-[13px] sm:text-sm font-extrabold leading-none">عالم الأبطال</h1>
+              <h1 className="text-[13px] sm:text-sm font-extrabold leading-none">دليل قنشن وهوفرس</h1>
               <p className="text-[8px] text-white/25 font-medium mt-0.5 font-en">{cfg.nameEn}</p>
             </div>
           </div>
@@ -266,7 +266,7 @@ export default function App() {
       {/* ═══════ FOOTER ═══════ */}
       <footer className="border-t border-white/[0.03] py-5">
         <div className="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <span className="text-[10px] text-white/15">عالم الأبطال</span>
+          <span className="text-[10px] text-white/15">دليل قنشن وهوفرس</span>
           <p className="text-[9px] text-white/10 flex items-center gap-1">
             صُنع بـ <Heart className="w-2.5 h-2.5 text-pink-500/60" fill="currentColor" /> بواسطة Bob
           </p>
