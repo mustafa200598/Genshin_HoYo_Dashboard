@@ -20,3 +20,4 @@
 - **[2026-05-01]** chore: Standardize whitespace and indentation
 - **[2026-05-01]** style: Polish developer badge and copyright section
 - **[2026-05-01]** refactor: Streamline element and path filter logic
+- **[2026-05-01]** docs: Add instructions for running development server
