@@ -921,3 +921,4 @@
 - chore: Internal optimization pass 889
 - chore: Internal optimization pass 890
 - chore: Internal optimization pass 891
+- chore: Internal optimization pass 892
